@@ -35,6 +35,8 @@ CORS_ORIGIN_ALLOW_ALL = True
 SIMPLE_JWT = {
     'ACCESS_TOKEN_LIFETIME': timedelta(days=365),
 }
+
+DISABLE_COLLECTSTATIC=1
 # Application definition
 
 INSTALLED_APPS = [
